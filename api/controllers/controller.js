@@ -1,4 +1,4 @@
 
 exports.list_all = function(req, res) {
-    res.json('hello');
+    res.json('hello all');
   };
