@@ -1,0 +1,19 @@
+{
+  "name": "nodeapi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Harvester0fSorrow/nodeApi.git"
+  },
+  "author": "Rad",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Harvester0fSorrow/nodeApi/issues"
+  },
+  "homepage": "https://github.com/Harvester0fSorrow/nodeApi#readme"
+}
