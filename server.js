@@ -17,7 +17,7 @@ routes(app);
 
 app.use(function(req, res) {
     res.status(404)
-        .sendFile(rootHtmlPath + '/notFound.html');
+        .redirect('/404');
 });
 
 app.listen(port);
