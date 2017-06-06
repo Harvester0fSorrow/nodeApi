@@ -1,16 +1,11 @@
-module.exports = function(app) {
-  var controller = require('../controllers/controller');
+var path = require('path');
 
+module.exports = function(app) {
   app.get('/', function(req, res){
-      res.sendFile('./html/index.html');
+     res.sendFile(path.join(__dirname, '../../html', 'index.html'));
   });
 
-  app.route('/api/Home')
-    .get(controller.home);
-
-  app.route('/api/Metadata/menu')
-      .get(controller.metadata);
-
-  app.route('/api/About')
-      .get(controller.about);
+  app.get('/About', function(req, res){
+     res.sendFile(path.join(__dirname, '../../html', 'index.html'));
+  });
 };
