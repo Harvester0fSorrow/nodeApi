@@ -1,0 +1,144 @@
+html {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  height: 100%;
+  overflow: hidden;
+  font-size: 1.2em;
+  font-family: 'Rubik', monospace;
+  background-color: #f1f1f1;
+}
+
+.root,
+.app {
+  height: 100%;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: #333;
+}
+
+.header .menu {
+  display: -webkit-inline-box;
+  display: -ms-inline-flexbox;
+  display: inline-flex;
+  margin-top: 0px;
+  margin-left: 125px;
+  width: 190px;
+  height: 50px;
+  position: relative;
+}
+
+.header .menu a {
+  color: rgb(241, 241, 241);
+  text-decoration: none;
+  position: relative;
+}
+
+.header .dude-glasses {
+  height: 50px;
+  position: fixed;
+  left: 10px;
+}
+
+.header .menu .option {
+  padding: 20px 20px 0;
+  display: block;
+  height: 33px;
+  float: left;
+  top: -5px;
+  position: relative;
+}
+
+.header .menu .option.selected {
+  border-bottom: 2px solid rgb(215, 123, 241);
+  color: rgb(215, 123, 241);
+  background-color: #444;
+}
+
+.header .menu .option:hover {
+  border-bottom: 2px solid rgb(215, 123, 241);
+  color: rgb(215, 123, 241);
+}
+
+.header .menu .option:hover {
+  color: rgb(215, 123, 241);
+}
+
+.footer {
+  color: grey;
+  text-align: center;
+  position: relative;
+  margin-top: -30px;
+  height: 30px;
+  clear: both;
+}
+
+.body {
+  overflow: auto;
+  height: 100%;
+  position: relative;
+}
+
+.cursor {
+  width: 10px;
+  height: 50px;
+}
+
+.content {
+  height: auto;
+  min-height: 90%;
+  display: block;
+  margin: 80px auto;
+  width: 80%;
+  color: rgb(41, 44, 53);
+}
+
+.content .box {
+  padding: 50px;
+  background-color: white;
+  margin-bottom: 20px;
+}
+
+.content .messenger {
+  padding: 10px 50px 10px 50px;
+  background-color: white;
+}
+
+.content .messenger .title input {
+  width: 100%;
+  border-radius: 5px;
+  border: 1px solid #f1f1f1;
+  height: 30px;
+  font-size: 1em;
+  padding: 5px;
+}
+
+.content .messenger .title input:focus {
+  outline-width: 0;
+  box-shadow: 0 0 0 1pt rgb(215, 123, 241);
+}
+
+.content h3 {
+  font-family: 'Open Sans', serif;
+}
+
+.content p {
+  margin-top: 0px;
+}
+
+.about-image {
+  width: 30%;
+  float: left;
+  margin-right: 15px;
+}

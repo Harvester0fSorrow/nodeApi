@@ -5,6 +5,12 @@ module.exports = function(app) {
       res.sendFile('./html/index.html');
   });
 
-  app.route('/list_all')
-    .get(controller.list_all);
+  app.route('/api/Home')
+    .get(controller.home);
+
+  app.route('/api/Metadata/menu')
+      .get(controller.metadata);
+
+  app.route('/api/About')
+      .get(controller.about);
 };
