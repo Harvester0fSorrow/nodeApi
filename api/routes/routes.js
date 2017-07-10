@@ -8,7 +8,7 @@ module.exports = function(app) {
      res.send({
        post:
          {
-           title: 'And so it begins ...',
+           title: 'And so it begins...',
            date: new Date().toDateString(),
            content: '<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, '+
            'sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. '+
@@ -18,7 +18,7 @@ module.exports = function(app) {
            'dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, '+
            'sunt in culpa qui officia deserunt mollit anim id est laborum.</p>'+
            '<p>Next time I should write something in english...</p>'+
-           '<p style="text-indent:0;text-align: center;margin-top:50px;margin-bottom:0;">to be continued ...</span>',
+           '<p style="text-indent:0;text-align: center;margin-top:50px;margin-bottom:0;">to be continued...</span>',
          },
      });
   });
